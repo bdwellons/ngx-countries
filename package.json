@@ -1,0 +1,23 @@
+{
+  "name": "ng2-countries",
+  "version": "1.0.0",
+  "description": "Angular 2 service for retrieving countries",
+  "main": "ng2-countries.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ng2",
+    "countries",
+    "world"
+  ],
+  "author": "Brant Wellons <Brant@BrantWellons.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/core": "^2.4.3"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.50",
+    "lodash": "^4.17.4"
+  }
+}
