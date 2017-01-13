@@ -1,11 +1,16 @@
 {
   "name": "ng2-country-service",
   "version": "1.0.1",
-  "description": "Angular 2 service for retrieving countries",
+  "description": "Angular 2 service for retrieving countries by continent",
   "main": "ng2-countries.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/bwellons/ng2-countries.git"
+  },
+  "homepage": "https://bitbucket.org/bwellons/ng2-countries#readme",
   "keywords": [
     "ng2",
     "countries",
