@@ -48,7 +48,7 @@ export class CountryService {
 		});
 	}
 
-	getAntarticaCountries() : Country[] {
+	getAntarcticaCountries() : Country[] {
 		return _.filter(COUNTRIES, (country) => {
 			return country.continentName === 'Antarctica';
 		});

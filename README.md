@@ -4,7 +4,7 @@ Angular2 Service for retrieving a list of Countries by continents
 
 ### How do I get set up? ###
 
-* import { CountryService } from './path/to/service/country.service';
+* import { CountryService } from 'ng2-countries/country.service'
 * providers: [CountryService] // Add to providers array
 * Inject into component constructor
 * this.CountryService.getNorthAmericanCountries(); // Use
@@ -16,7 +16,7 @@ Angular2 Service for retrieving a list of Countries by continents
 * getAfricanCountries() -
 * getOceaniaCountries() - Australia, etc
 * getSouthAmericanCountries() -
-* getAntarticaCountries() -
+* getAntarcticaCountries() -
 
 
 ### Contribution guidelines ###
