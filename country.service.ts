@@ -34,8 +34,7 @@ export class CountryService {
 			return country.continentName === 'Africa';
 		});
 	}
-
-	// Australia, etc
+	
 	getOceaniaCountries() : Country[] {
 		return _.filter(COUNTRIES, (country) => {
 			return country.continentName === 'Oceania';
