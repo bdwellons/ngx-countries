@@ -1,6 +1,6 @@
-import { Country } from './country.model';
+import { ICountry } from '../definitions/ICountry';
 
-export const COUNTRIES: Country[]  = [
+export const COUNTRIES: ICountry[]  = [
         {
             "countryCode": "AD",
             "countryName": "Andorra",
