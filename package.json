@@ -1,10 +1,10 @@
 {
   "name": "ng2-country-service",
   "version": "1.0.3",
-  "description": "Angular 2 service for retrieving countries by continent",
-  "main": "ng2-countries.js",
+  "description": "Angular 2 module for retrieving countries by continent",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "istanbul cover karma start"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
     "world"
   ],
   "author": "Brant Wellons <Brant@BrantWellons.com>",
+  "contributors": [
+    "Juan Hererra <david.juanherrera@gmail.com>"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@angular/core": "^2.4.10",
@@ -46,7 +49,6 @@
     "zone.js": "^0.5.15"
   },
   "dependencies": {
-    "jasmine-core": "^2.4.1",
-    "lodash": "^4.17.4"
+    "jasmine-core": "^2.4.1"
   }
 }

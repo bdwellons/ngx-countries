@@ -1,12 +1,10 @@
 module.exports = function (config) {
     config.set({
         frameworks: ["jasmine", "karma-typescript"],
-        files: [{
-            pattern: "src/**/*.ts"
-        },
-        {
-            pattern: "test/*.ts"
-        }],
+        files: [
+            { pattern: "src/**/*.ts" },
+            { pattern: "test/*.ts" }
+        ],
         preprocessors: {
             "**/*.ts": ["karma-typescript"], // *.tsx for React Jsx 
         },
@@ -26,6 +24,7 @@ module.exports = function (config) {
                 sourceMap: true,
                 target: "es5"
             },
-        }
+        },
+        singleRun: true
     });
 };
