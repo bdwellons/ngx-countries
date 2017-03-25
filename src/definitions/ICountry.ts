@@ -1,4 +1,4 @@
-export class Country {
+export interface ICountry {
     countryCode: string;
     countryName: string;
     currencyCode: string;
