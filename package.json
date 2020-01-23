@@ -1,12 +1,12 @@
 {
-  "name": "ng2-country-service",
+  "name": "ngx-country-service",
   "version": "3.0.2",
   "description": "Angular module for retrieving countries by continent",
   "main": "dist/index.ts",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "istanbul cover karma start",
-    "prepublish": "tsc"
+    "prepublish": "rm -rf dist && tsc"
   },
   "repository": {
     "type": "git",
