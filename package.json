@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/bwellons/ng2-countries.git"
+    "url": "git+https://github.com/bdwellons/ngx-countries.git"
   },
-  "homepage": "https://bitbucket.org/bwellons/ng2-countries#readme",
+  "homepage": "https://github.com/bdwellons/ngx-countries#readme",
   "keywords": [
     "ng2",
     "countries",
