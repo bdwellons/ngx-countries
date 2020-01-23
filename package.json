@@ -1,6 +1,6 @@
 {
   "name": "ng2-country-service",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Angular module for retrieving countries by continent",
   "main": "dist/index.ts",
   "types": "dist/index.d.ts",
